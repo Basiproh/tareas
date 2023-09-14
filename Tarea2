@@ -1,0 +1,6 @@
+shape(3,6.0,0)
+	.repeat(5.0, 4.0, 6.0, 0.0)
+	.color(7,1,1)
+	.sub(voronoi(5,1,0.5))
+	.modulateKaleid(osc(50, 0.01))
+	.out()
